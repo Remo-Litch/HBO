@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HBO Clone</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="hbo.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+  </head>
+  <body>
+    
+    <na mv class="navbar">
+      <div class="left-side">
+        <div class="hamburger-box">
+          <div class="hamburger-dropdown">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+            <label for="nav-toggle" class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+            <div class="hamburger-dropdown-content">
+              <hr id="top-hr" />
+              <a href="#">SERIES</a>
+              <hr />
+              <a href="#">MOVIES</a>
+              <hr />
+              <a href="#">NEW & LAST CHANCE</a>
+              <hr />
+              <a href="#">SCHEDULE</a>
+              <hr />
+              <a href="#">FREE EPISODES</a>
+              <hr />
+              <a href="#">DOCUMENTARIES</a>
+              <hr />
+              <a href="#">SPECIAL</a>
+              <hr />
+              <a href="#">SPORTS</a>
+              <hr />
+              <a href="#">PODCASTS</a>
+              <hr />
+              <a href="#">MAX</a>
+            </div>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="hbo.png" class="hbo" alt="HBO-logo" />
+        </div>
+
+        
+
+        <div class="nav-links">
+          <a href="https://www.hbo.com/series">SERIES</a>
+          <a href="https://www.hbo.com/movies">MOVIES</a>
+          <a href="https://www.hbo.com/whats-new-whats-leaving">NEWS & LAST CHANCE</a>
+          <a href="https://www.hbo.com/schedule">SCHEDULE</a>
+          <a href="https://www.hbo.com/watch-free-episodes">FREE EPISODES</a>
+          <a href="#" id="m">MORE</a>
+          <div class="dropdown">
+            <input
+              type="checkbox"
+              id="dropdown-toggle"
+              class="dropdown-checkbox"
+            />
+            <label for="dropdown-toggle" class="dropdown-toggle">
+              <i class="fa-solid fa-angle-down dropdown-icon"></i>
+            </label>
+            <div class="dropdown-content">
+              <a href="https://www.hbo.com/documentaries">DOCUMENTARIES</a>
+              <a href="https://www.hbo.com/specials">SPECIAL</a>
+              <a href="https://www.hbo.com/sports">SPORTS</a>
+              <a href="https://www.hbo.com/podcasts">PODCASTS</a>
+              <a href="https://www.hbo.com/hbo-and-max">MAX</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="auth-buttons">
+        <a href="https://auth.max.com/login?hbo_source=hbo.com&hbo_medium=referral&hbo_campaign=max_button_&hbo_term=nav">
+        <button class="sign-in">SIGN IN</button>
+      </a>
+      <a href="https://auth.max.com/product?hbo_source=hbo.com&hbo_medium=referral&hbo_campaign=max_button_&hbo_term=nav">
+        <button class="sign-up">
+          <span>SIGN UP</span><span id="for">FOR</span>
+          <img src="max.jpg" class="max" alt="MAX" />
+        </button>
+      </a>
+    
+      </div>
+    </nav>
+
+    
+    <section class="hero-container">
+      <img src="hero.png" class="hero-img" alt="hero-img" />
+      <div class="description-container">
+        <div class="desc-text">
+          <h3 id="time">NEW EPISODES SUNDAYS AT 9 PM</h3>
+          <h1 id="title">The Last of Us</h1>
+          <h3 id="text">
+            Joel and Ellie's collective past catches up to them, drawing them
+            into conflict with each other and a world even more dangerous than
+            the one they left behind.
+          </h3>
+        </div>
+        <div class="buttons">
+          <a href="https://youtu.be/_zHPsmXCjB0?si=qJeDGoH2w7VT6zKJ">
+            <button id="play-button">
+              <i class="fa-solid fa-play" id="play-icon"></i>WATCH THE TRAILER
+            </button>
+          </a>
+          <a href="https://www.hbo.com/the-last-of-us">
+            <button id="more-button">FIND OUT MORE</button>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<section class="movie-cards">
+  <h2 class="section-title">Stream the Latest</h2>
+  <div class="carousel-container">
+    <img src="/HBO/images/l-chevron.png" class="left-arrow" alt="">
+    <div class="cards-container">
+    
+
+      <div class="card">
+        <img src="/HBO/images/card1.png" alt="Movie 1" class="card-image" />
+        <div class="card-content">
+          <h5 class="available">AVAILABLE NOW</h5>
+          <a href="https://www.hbo.com/the-white-lotus">The white lotus</a>
+          <p class="card-synopsis">
+            This social satire is set at an exclusive Thai resort and follows
+            the exploits of various guests and employees over the span of a
+            week.
+          </p>
+        </div>
+      </div>
+
+     
+      <div class="card">
+        <img src="/HBO/images/card2.png" alt="Movie 2" class="card-image" />
+        <div class="card-content">
+          <h5 class="available">AVAILABLE NOW</h5>
+          <a href="https://www.hbo.com/the-righteous-gemstones">The Righteous Gemstones</a>
+          <p class="card-synopsis">
+            In the final season, the family codependence is tested as they
+            attempt to move foward without letting go of their storied past.
+          </p>
+        </div>
+      </div>
+
+      <div class="card" id="card3">
+        <img src="/HBO/images/card3.png" alt="Movie 3" class="card-image" />
+        <div class="card-content">
+          <h5 class="available">AVAILABLE NOW</h5>
+          <a href="https://www.hbo.com/celtics-city">Celtics City</a>
+          <p class="card-synopsis">
+            Chronicles the remarkable saga of Boston Celtics, The NBA's
+            winningest and the most storied franchise.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="card" id="card4">
+        <img src="/HBO/images/card4.png" alt="Movie 4" class="card-image" />
+        <div class="card-content">
+          <h5 class="available">AVAILABLE NOW</h5>
+          <a href="https://www.hbo.com/we-beat-the-dream-team"> We Beat The Dream Team </a>
+          <p class="card-synopsis">
+            The little-known story of a group of college basketball players
+            tasked with Larry Bird, Magic Johnson, Michael Jordan, and the rest
+            of the legendary Dream Team" for their olympic debut in 1992
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="/HBO/images/r-chevron.png" class="right-arrow" alt="">
+  </div>
+</section>
+
+
+
+
+<div class="overall-schedule-container">
+  <section class="schedule-section">
+    <div class="sechedule-div">
+    <div class="schedule-container">
+      <p id="tonight">Tonight on HBO</p>
+      <span id="full">
+        SEE FULL SCHEDULE
+        <img src="/HBO/images/chevron (2).png" alt="Chevron Icon">
+      </span>
+    </div>
+    <div class="divider"></div> 
+
+    <div class="movie-schedule">
+      <div class="vertical-line"></div>
+      
+
+      <div class="movie">
+        <a href="">
+        <h4 class="movie-title">THE RIGHTEOUS GEMSTONES - S4:E9 - THAT THE...</h4>
+      </a>
+        <p class="movie-time">8:00 PM EDT</p>
+      </div>
+      <div class="vertical-line"></div> 
+
+
+      <div class="movie">
+        <a href="#">
+        <h4 class="movie-title">ADULT BEST FRIENDS</h4>
+      </a>
+        <p class="movie-time">8:55 PM EDT</p>
+      </div>
+      <div class="vertical-line"></div> 
+
+
+      <div class="movie">
+        <a href="#">
+        <h4 class="movie-title">THE LAST OF US - S2:E4 - DAY ONE</h4>
+      </a>
+        <p class="movie-time"> 10:20 PM EDT</p>
+      </div>
+
+      <div class="divider-bottom"></div>
+        <span id="full-bottom">
+        SEE FULL SCHEDULE
+        <img src="/HBO/images/chevron (2).png" class="ar" alt="Chevron Icon">
+      </span>
+   
+    </div>
+  </div>
+  </section>
+</div>
+
+<section class="promo-section">
+  <div class="promo-cards">
+  
+
+    <div class="promo-card">
+      <img src="/HBO/images/card5.png" alt="Card 1" class="promo-image">
+    </div>
+    
+    <div class="promo-card">
+      <img src="/HBO/images/card6.png" alt="Card 2" class="promo-image">
+    </div>
+    
+
+    <div class="promo-card">
+      <img src="/HBO/images/card7.png" alt="Card 3" class="promo-image">
+    </div>
+  </div>
+
+  <div class="promo-content">
+    <img src="max.jpg" alt="Max Logo" class="promo-logo">
+    <p class="promo-text">
+      Must-See Series, Movies & More
+    </p>
+    <a href="https://auth.max.com/product?hbo_source=hbo.com&hbo_medium=referral&hbo_campaign=max_button_&hbo_term=footer_banner">
+    <button class="promo-signup">SIGN UP NOW</button>
+  </a>
+  </div>
+</section>
+
+
+
+
+<section class="coming-soon-cards">
+  <h2 class="coming-soon-title">Coming Soon To HBO</h2>
+  <div class="coming-container">
+    <img src="/HBO/images/l-chevron.png" class="left-angle" alt="">
+
+    <div class="coming-soon-card-container">
+     
+
+      <div class="coming-soon-card" id="one">
+        <img src="/HBO/images/card8.png" alt="Movie 1" class="coming-soon-image" />
+        <div class="card-content">
+          <h5 class="available">PREMIERS MAY 28 AT 8PM</h5>
+          <a href="">Pee-wee as Himself</a>
+          <p class="card-synopsis">
+            Paul Reubens recalls his life story and the creation of his beloved alter-ego Pee-wee Herman
+            in this definitive portrait of the comedic performer.
+          </p>
+        </div>
+      </div>
+
+     
+      <div class="coming-soon-card" id="two">
+        <img src="/HBO/images/card8.png" alt="Movie 1" class="coming-soon-image" />
+        <div class="card-content">
+          <h5 class="available">PREMIERS MAY 28 AT 8PM</h5>
+          <a href="">Pee-wee as Himself</a>
+          <p class="card-synopsis">
+            Paul Reubens recalls his life story and the creation of his beloved alter-ego Pee-wee Herman
+            in this definitive portrait of the comedic performer.
+          </p>
+        </div>
+      </div>
+
+      <div class="coming-soon-card" id="three">
+        <img src="/HBO/images/card8.png" alt="Movie 1" class="coming-soon-image" />
+        <div class="card-content">
+          <h5 class="available">PREMIERS MAY 28 AT 8PM</h5>
+          <a href="">Pee-wee as Himself</a>
+          <p class="card-synopsis">
+            Paul Reubens recalls his life story and the creation of his beloved alter-ego Pee-wee Herman
+            in this definitive portrait of the comedic performer.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="/HBO/images/r-chevron.png" class="right-angle" alt="">
+  </div>
+</section>
+
+
+
+
+<section class="max-plans-section">
+  <div class="max-plans-container">
+    <img src="max.jpg" alt="Max Logo" class="max-logo">
+    <p class="plans-text">Plans start at $9.99/month</p>
+    <a href="https://auth.max.com/login?returnUrl=https%3A%2F%2Fplay.max.com%2Fsettings"><button class="plans-signup-button">SIGN UP NOW</button></a>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="footer-container">
+   
+    
+    <img src="hbo.png" alt="HBO Logo" class="footer-logo">
+
+    <div class="footer-links">
+      <a href="https://www.hbo.com/about">ABOUT</a>
+      <a href="https://www.hbo.com/hbo-and-max/how-to-get">GET HBO</a>
+      <a href="https://www.hbo.com/about/faqs">HELP</a>
+      <a href="https://shop.hbo.com/">SHOP</a>
+      <a href="https://careers.wbd.com/global/en">CAREERS</a>
+      <a href="https://www.hbo.com/about/hbo-inspires">HBO INSPIRES</a>
+      <a href="https://www.hbo.com/hbo-and-max">HOW TO WATCH MAX</a>
+    </div>
+
+    
+    <div class="footer-secondary-links">
+      <a href="https://www.wbdprivacy.com/policycenter/b2c/">Privacy Policy</a>
+      <a href="https://www.hbo.com/terms-of-use">Terms of Use</a>
+      <a href="https://www.wbdprivacy.com/policycenter/b2c/">Ad Choices</a>
+      <a href="https://www.hbo.com/#compliance-link">Cookie Settings</a>
+    </div>
+
+   
+    <div class="footer-disclaimer">
+      <p>© 2024 Home Box Office, Inc. All Rights Reserved.</p>
+      <p>This website may contain mature content.</p>
+    </div>
+  </div>
+</footer>
+
